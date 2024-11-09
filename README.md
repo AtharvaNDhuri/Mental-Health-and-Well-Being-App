@@ -4,6 +4,7 @@ The Mental Health and Well-Being App provides a personalized platform for managi
 
 ## Table of Contents
 - [Features](#features)
+- [Demo Video](#demo-video)
 - [Technologies Used](#technologies-used)
 - [Setup](#setup)
 - [Usage](#usage)
@@ -22,6 +23,10 @@ The Mental Health and Well-Being App provides a personalized platform for managi
 - **Access to Professional Support**: Option to connect with mental health professionals as needed.
 - **User-Friendly Interface**: Smooth and intuitive navigation for ease of use.
 
+## Demo Video
+
+[Watch the Demo Video](https://github.com/AtharvaNDhuri/Mental-Health-and-Well-Being-App/blob/main/Demo.mp4)
+
 ## Technologies Used
 
 - **Android Studio** - Primary IDE for Android development.
@@ -35,6 +40,7 @@ The Mental Health and Well-Being App provides a personalized platform for managi
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/AtharvaNDhuri/Mental-Health-and-Well-Being-App.git
+   
 2. **Open the project in Android Studio**.
 3. **Configure Firebase**:
    - Set up Firebase in the Firebase Console and download the `google-services.json` file.
