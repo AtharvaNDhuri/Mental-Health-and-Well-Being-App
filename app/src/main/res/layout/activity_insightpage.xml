@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B0CA9F"
+    android:backgroundTint="#B0CA9F"
+    tools:context=".insightpage">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="245dp"
+        android:layout_height="84dp"
+        android:fontFamily="serif"
+        android:gravity="bottom"
+        android:textAlignment="center"
+        android:text="Insights"
+        android:textColor="#435339"
+        android:textSize="42dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.044"
+        tools:ignore="RtlCompat" />
+
+    <TextView
+        android:id="@+id/moodcalendar"
+        android:layout_width="152dp"
+        android:layout_height="37dp"
+        android:paddingLeft="5dp"
+        android:text="Mood Calendar"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.162"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.207" />
+
+    <com.prolificinteractive.materialcalendarview.MaterialCalendarView
+        android:id="@+id/calendarView"
+        android:layout_width="325dp"
+        android:layout_height="312dp"
+        android:background="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/moodcalendar"
+        app:layout_constraintVertical_bias="0.0"
+        app:mcv_showOtherDates="all" />
+
+    <Button
+        android:id="@+id/contactHelpButton"
+        android:layout_width="221dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginBottom="172dp"
+        android:visibility="gone"
+        android:text="Contact Professional Help"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/calendarView"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/counselingButton"
+        android:layout_width="221dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="72dp"
+        android:visibility="gone"
+        android:text="Attend Counseling"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/calendarView"
+        app:layout_constraintVertical_bias="0.035" />
+
+    <Button
+        android:id="@+id/backbutton"
+        android:layout_width="182dp"
+        android:layout_height="56dp"
+        android:layout_marginBottom="40dp"
+        android:backgroundTint="#E9F1EA"
+        android:text="Back"
+        android:textColor="#789666"
+        android:textColorHint="#9C27B0"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:cornerRadius="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints,TouchTargetSizeCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
