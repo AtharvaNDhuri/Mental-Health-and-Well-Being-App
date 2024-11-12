@@ -89,6 +89,6 @@ For questions or contributions, please reach out to the team:
 - **Atharva Dhuri** (Lead Developer) - [atharvadhuri06@gmail.com](mailto:atharvadhuri06@gmail.com)
 - **Diti Mehta** (UI Designer & Feature Developer) - [GitHub Profile](https://github.com/Diti21)
 - **Dhruvi Mehta** (UI Designer & Feature Developer) - [GitHub Profile](https://github.com/dhruvimehta17)
-- **Pratyush Sharma** (Feature Prototyper & Database Integrator) - [pratyushsharmab156@gmail.com](mailto:pratyushsharmab156@gmail.com) | [GitHub Profile](https://github.com/Pratyush0302)
+- **Pratyush Sharma** (Feature Prototyper & Database Integrator) - [pratyush8850@gmail.com](mailto:pratyush8850@gmail.com) | [GitHub Profile](https://github.com/PratyushSharma03)
 
 ---
