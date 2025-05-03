@@ -25,7 +25,7 @@ The Mental Health and Well-Being App provides a personalized platform for managi
 
 ## Demo Video
 
-[Watch the Demo Video](https://github.com/AtharvaNDhuri/Mental-Health-and-Well-Being-App/blob/main/Demo.mp4)
+[Click here to watch the project demo](https://drive.google.com/file/d/1JFas3iKwNPMflLDUzQSfxLBjkrfac5w4/view?usp=sharing)
 
 ## Technologies Used
 
